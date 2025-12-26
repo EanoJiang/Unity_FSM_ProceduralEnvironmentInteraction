@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdca6d3c470a417a8709824ac44fc11a, type: 3}
+  m_Name: EnvironmentInteraction
+  m_EditorClassIdentifier: 
+  resetValue:
+    lerpDuration: 20
+    rotationSpeed: 200
+    resetDuration: 5
+  searchValue:
+    approachDistanceThreshold: 5
+  approachValue:
+    lerpDuration: 5
+    approachDuration: 2
+    rotationSpeed: 1000
+    approachWeight: 0.5
+    approachRotationWeight: 0.75
+    riseDistanceThreshold: 0.5
+  riseValue:
+    lerpDuration: 5
+    rotationSpeed: 1000
+    riseWeight: 1
+    touchDistanceThreshold: 0.05
+    touchTimeThreshold: 0.8
+  touchValue:
+    resetThreshold: 0.1
